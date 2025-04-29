@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input,textarea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    width: 80% ;
+    margin: 0 auto;
+}

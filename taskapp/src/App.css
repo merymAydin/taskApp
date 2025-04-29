@@ -1,0 +1,104 @@
+#app{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#task-form-container{
+  width: 30%;
+  padding: 10px;
+}
+#task-form{
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+  width: 100%;
+  background-color: pink;
+}
+.form-title{
+  margin: 5px 0;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 100%;
+  padding: 5px;
+}
+.form-label{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 1.5rem;
+}
+.form-control{
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+.form-check{
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+#form-button{
+  padding: 10px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  width: 100%;
+  border: none;
+}
+.create-button{
+  background-color: blue;
+  color: white;
+}
+#task-list{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-count: 3;
+  width: 100%;
+  padding: 5px;
+  font-size: 1.5;
+}
+.card-container{
+  width: 33%;
+  padding: 5px;
+}
+.task-card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid silver;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+}
+
+.card-group{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.card-group button{
+  width: 40%;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin: 0 5px;
+}
+.delete-button{
+  background-color: red;
+  color:white;
+}
+.update-button{
+  background-color: green;
+  color: white;
+}
